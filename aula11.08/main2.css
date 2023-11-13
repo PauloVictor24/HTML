@@ -1,0 +1,11 @@
+* {margin: 0px; padding: 0px;}
+main {width: 100%; height: 1600px; background-color: antiquewhite; }
+.pai { width: 200px; height: 200px; background-color: green; position: fixed; right: 0%; bottom: 0%; }
+.filha { width: 100px; height: 100px; background-color: blue; position: fixed; left: 20%; bottom: 50%; }
+h2 { width: 200px; height: 50px; background-color: pink; }
+.mae { width: 200px; height: 200px; background-color: orange; position: sticky;top: 0px; left: 0px; margin: 50% 0px 0px 0%;}
+.filho { width: 100px;height: 100px; background-color: yellow; }
+.prof { width: 200px; height: 200px; background-color: violet; }
+.aluno { width: 100px; height: 100px; background-color: red; position: relative;top: 50px; left: 50px;}
+.tia { width: 200px;height: 200px; background-color: chartreuse; margin: 0px; }
+.prima { width: 100px; height: 100px; background-color: blueviolet; }
