@@ -1,0 +1,14 @@
+* {margin: 0px; padding: 0px;}
+body {background-color: chocolate; width: 50vw; height: 19vw; margin: 50px auto; display: grid; grid-template-columns: 0,2fr 0,1fr 0,2fr;
+     grid-template-rows: 8vw 8vw 18vw 8vw ;
+    grid-template-areas: 
+"main main main"
+" header header header"
+"div nav nav"
+"footer footer footer";}
+
+main {background-color: rgb(94, 21, 162); grid-area: main;}
+header {background-color: rgb(12, 211, 211); grid-area: header;}
+div {background-color: rosybrown; grid-area: div;}
+nav {background-color: rgb(126, 6, 6); grid-area: nav;}
+footer {background-color: rgb(56, 8, 102); grid-area: footer; }

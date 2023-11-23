@@ -1,0 +1,11 @@
+* { margin: 0px; padding: 0px; font-size: 26px; }
+div { border: 2px solid black; }
+main { display: grid;grid-template-columns: 1fr  }
+.header-bgcolor { background-color: #23b14d; }
+.menu1-bgcolor { background-color: #23aab1; }
+.menu2-bgcolor { background-color: #2328b1; }
+.content-bgcolor { background-color: #9023b1; }
+.footer-bgcolor { background-color: #b18223; }
+main { width:60% ; margin: 0px auto; display: grid; grid-template-columns: 0.5fr 1fr; grid-template-rows: 80px 50px repeat(1, 480px) 50px; grid-row-gap: 8px; grid-column-gap: 8px; }
+
+.grid-align {grid-column-start: 1; grid-column-end: 3;}

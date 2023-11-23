@@ -1,0 +1,11 @@
+* { margin: 0px; padding: 0px; }
+body {background-color: #d9d9d9;}
+
+header {background-color: red; grid-area: header;}
+.nav4 {background-color: white;}
+article {background-color: rgb(72, 72, 110); grid-area: article;}
+div {background-color: yellow; grid-area: ads;}
+footer {background-color: black; grid-area: footer;}
+.nav1 {background-color: aqua;}
+.nav2 {background-color: whitesmoke;}
+.nav3 {background-color: wheat;}
