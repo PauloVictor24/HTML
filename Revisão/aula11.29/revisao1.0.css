@@ -1,0 +1,94 @@
+* {margin: 0px; padding: 0px; 
+box-sizing: border-box; }
+
+/*INICIO DO LAYOUT EM FLEX*/
+
+.flex-header {width: 100vw; height: 80px;
+color: #ffffff;
+display: flex ; 
+justify-content: space-between;
+padding: 0px 30px;
+align-items: center;}
+
+.flex-div-container {display: flex;
+justify-content: space-evenly;
+width: 100vw; height: 300px;
+background-color: aqua;
+align-items: center;}
+
+.flex-footer {background-color: blue;}
+
+.flex-header {background-color: #434343;}
+
+.flex-div-section {width: 30%;  height: 90%;
+background-color: violet;}
+
+footer {background-color: blue;
+width: 100vw; height: 300px;}
+
+/*FIM LAYOUT EM FLEX*/
+
+/*INICIO DO LAYOUT EM GRID*/
+
+h2 {color: black;}
+
+.grid-container {display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 80px 300px 300px; 
+gap: 15px; }
+
+#one {grid-column-start: 1;
+    display: grid;
+grid-column-end: 4;
+grid-template-columns: 1fr 100px;
+background-color: aqua;}
+
+#two {grid-column-start: 1;
+background-color: blueviolet;}
+
+#three {grid-column-start: 2;
+background-color: brown;}
+
+#four {grid-column-start: 3;
+background-color: chartreuse;}
+
+#five {grid-column-start: 1;
+    grid-column-end: 4;
+background-color: yellow;}
+
+#menu-h2 {grid-column-start: 3;
+align-items: center;}
+
+/*FIM DO LAYOUT EM GRID*/
+
+/*INICIO DO GRID EM AREA*/
+
+.grid-container01 {display: grid;
+width: 100vw; height: 80%;
+grid-template-rows: 80px 300px 200px;
+gap: 15px;
+grid-template-areas: 
+'um um um'
+'dois tres quatro'
+'cinco cinco cinco';}
+
+.um {grid-area: um;
+background-color: yellowgreen;
+ align-items: center;
+display: grid;}
+
+.dois {grid-area: dois; 
+background-color: turquoise;}
+
+.tres {grid-area: tres; 
+background-color: tomato;}
+
+.quatro {grid-area: quatro; 
+background-color: blue;}
+
+.cinco {grid-area: cinco; 
+background-color: rgb(210, 140, 173);}
+
+.grid-h2-01 {grid-area: logo;}
+
+.grid-h2-02 {grid-area: h202;}

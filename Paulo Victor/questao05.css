@@ -1,0 +1,56 @@
+* {margin: 0px; padding: 0px;}
+
+h2 {color: black;}
+
+h3 {align-items: center;}
+
+p {margin: 20px; padding: 1px;}
+
+.grid-container {display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 80px 300px 300px; 
+gap: 15px; background-color: aqua; }
+
+#one {grid-column-start: 1;
+    display: grid;
+grid-column-end: 4;
+grid-template-columns: 1fr 100px;
+background-color: blue;}
+
+#two {grid-column-start: 1;
+background-color: aquamarine;}
+
+#three {grid-column-start: 2;
+    margin: 30px; padding: 50px;
+background-image: url(./imagens/questao05.01.jpg);}
+
+#four {grid-column-start: 3;
+    margin: 30px; padding: 50px;
+background-image: url(./imagens/questao05.02.jpg);}
+
+#five {grid-column-start: 2;
+    margin: 30px; padding: 50px;
+background-image: url(./imagens/questao05.03.jpg);}
+
+#six {grid-column-start: 3;
+    margin: 30px; padding: 50px;
+background-image: url(./imagens/questao05.04.jpg);}
+
+#seven {grid-column-start: 2;
+    margin: 30px; padding: 50px;
+background-image: url(./imagens/questao05.05.jpg);}
+
+#eigth {grid-column-start: 3;
+    margin: 30px; padding: 50px;
+background-image: url(./imagens/questao05.06.jpg);}
+
+#nine {grid-column-start: 2;
+    margin: 10px; padding: 10px;
+background-image: url(./imagens/questao05.07.jpg);}
+
+#ten {grid-column-start: 3;
+    margin: 30px; padding: 50px;
+background-image: url(./imagens/questao05.08.jpg);}
+
+#menu-h2 {grid-column-start: 3;
+align-items: center;}

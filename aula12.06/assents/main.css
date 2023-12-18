@@ -1,0 +1,26 @@
+/*
+.largura {max-width: 500px; height: 300px; border: 2px dotted black;}
+
+.row {height: 100%;}
+
+.col-6, .col-3  {height: 25px; margin: 0px; }
+
+.bi.bi-bell, .bi.bi-virus2 {font-size: 40px ;color: blueviolet; margin: 2px;}
+
+header {text-align: center;} 
+*/
+body {height: 100vh ; width: 100vw;}
+
+.header { height: 290px; background-color: #1c1c1c;}
+
+.main {height: 290px; background-color: #1c1c1c;}
+
+.container-fluid {width: 100%;}
+
+footer {background-color: #1c1c1c;}
+
+a {text-decoration: none;}
+
+.row {max-width: 600px; margin: 0px auto;}
+
+strong {color: brown;}

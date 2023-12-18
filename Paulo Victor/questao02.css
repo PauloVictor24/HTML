@@ -1,0 +1,13 @@
+* {margin: 0px; height: 0px;}
+ 
+body {background-color: gray;}
+ 
+section {display: grid; 
+background: fixed;
+padding: 150px; margin: 50px;
+width: 20px;
+background-image: url(imagens/questao02.01.jpg);}
+
+div {display: grid;
+     border-color: aliceblue;
+    }
